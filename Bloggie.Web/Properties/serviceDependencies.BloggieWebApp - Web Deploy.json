@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/BloggieWebApp/providers/Microsoft.ServiceLinker/linkers/BloggieDbConnection_0AF04A7F28",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bloggieazurewebdbserver/databases/Bloggie.Web_db",
+      "type": "mssql.azure",
+      "connectionId": "BloggieDbConnection"
+    }
+  }
+}
