@@ -1,12 +1,25 @@
 {
   "dependencies": {
-    "mssql1": {
+    "mssql4": {
+      "ignored": "true",
       "type": "mssql",
-      "connectionId": "BloggieDbConnectionString"
+      "connectionId": "ConnectionStrings:BloggieDbConnection",
+      "dynamicId": null
     },
     "mssql2": {
+      "ignored": "true",
       "type": "mssql",
       "connectionId": "BloggieDbConnection"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:BloggieAuthDbConnection",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "BloggieDbConnectionString",
+      "dynamicId": null
     }
   }
 }
